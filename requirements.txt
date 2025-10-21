@@ -1,0 +1,27 @@
+# Core LangChain packages
+langchain==1.0.1
+langchain-community==0.4
+langchain-core==1.0.0
+langchain-groq==1.0.0
+langchain-text-splitters==1.0.0
+
+# LLM and AI packages
+groq==0.33.0
+sentence-transformers==5.1.1
+
+# Vector database and search
+faiss-cpu==1.12.0
+
+# Data processing
+pandas==2.3.3
+numpy==2.2.6
+
+# Web scraping
+beautifulsoup4==4.12.2
+requests==2.32.5
+
+# Environment and utilities
+python-dotenv==1.1.1
+
+# Optional: For enhanced web scraping
+lxml==4.9.3
