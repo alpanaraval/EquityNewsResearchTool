@@ -32,11 +32,9 @@ if process_url_clicked:
     main_placeholder.text("Data Splitting.....Started.....")
     chunks = text_splitter.split_documents(data)
 
-    # Embed the chunks using SentenceTransformerEmbeddings from langchain_community
-    #from langchain_community.embeddings import SentenceTransformerEmbeddings
-    #embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")'''
+    # Use a simpler embedding approach
     from langchain_community.embeddings import HuggingFaceEmbeddings
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    embeddings = HuggingFaceEmbeddings()
   
     # Store them in a pickle file
     import pickle
