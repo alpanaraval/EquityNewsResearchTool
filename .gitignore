@@ -130,5 +130,6 @@ dmypy.json
 
 # Project specific
 faiss_index/
+faiss_index.pkl
 *.csv
 test.py
