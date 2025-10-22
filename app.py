@@ -36,7 +36,7 @@ if process_url_clicked:
     #from langchain_community.embeddings import SentenceTransformerEmbeddings
     #embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")'''
     from langchain_community.embeddings import HuggingFaceEmbeddings
-    embeddings = HuggingFaceEmbeddings()
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
   
     # Store them in a pickle file
     import pickle
